@@ -1,5 +1,7 @@
 .body{
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif, "Montserrat", sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
     font-size: 14px;
     line-height: 20.02px;
     color: black;
@@ -242,7 +244,7 @@
         }
         .imgtext{
             white-space: nowrap;
-            font-family: ;
+            font-family: "Montserrat", sans-serif
         }
         .lowerwholecontainer{
             padding-top: 48px;
@@ -286,11 +288,13 @@
             font-size: 14px;
         }
         .line{
-            display:block;
+            display: block;
             height: 1px;
-            width: 580px;px;
+            width: 580px;
             background-color: rgb(221, 221,221);
             font-size: 14px;
             line-break: strict;
             border-color: rgb(0.008, 0.008, blue);
         }
+
+        
