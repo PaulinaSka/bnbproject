@@ -215,5 +215,37 @@
     line-height: 16px;
     white-space: normal;
 }
-    
+
+
+.iconcontainer1{
+    align-items: center;
+    flex-direction: column;
+    min-width: 40px;
+    width:auto;
+    height:auto;
+    font-size: 12px;
+}
+
+.img1{
+    justify-self: center;
+
+}
+ .iconstext{
+    text-size-adjust: 100%;
+    display: center;
+    font-weight: 600;
+    font-family: Montserrat, Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+ }
+ .picture{
+    border-radius: 20px;
+    position:relative ;
+    height: 100%;
+    width: 100%;
+    display:inline-flex;
+ }
+
+
+
+
+ 
         
