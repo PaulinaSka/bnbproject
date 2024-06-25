@@ -13,5 +13,28 @@
     display: block;
 }
 
+.container{
+    box-sizing: border-box;
+    height: 70px;
+    width: auto;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    padding-top: 14px;
+}
+.incontainer{
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    text-size-adjust: 100%;
+    height: 56px;
+    background-origin: padding-box;
+    background-size: auto;
+    background-repeat: repeat;
+    z-index: 1;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    width: auto;
+}
+
 
         
